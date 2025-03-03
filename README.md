@@ -38,7 +38,7 @@ This project demonstrates a complete ETL (Extract, Transform, Load) pipeline usi
 
 ## ETL Pipeline
 
-The first part of the project utilizes open source tools such as **PostgreSQL** (for data storage), **dbt-core** (for data transformation), and **Metabase** (for dashboard analytics and insights).
+The first part of the project utilizes open-source tools such as **PostgreSQL** (for data storage), **DuckDB** (for loading data into PostgreSQL), **dbt-core** (for data transformation), and **Metabase** (for dashboard analytics and insights).
 
 ### Transformation Architecture: The Medallion Pattern
 
@@ -68,4 +68,3 @@ For the dashboard, I chose **Metabase** due to its simplicity and easy integrati
 - **dbt-postgres:** ^1.9.0
 - **pathlib:** ^1.0.1
 - **tqdm:** ^4.67.1
-- **boto3:** ^1.37.4
