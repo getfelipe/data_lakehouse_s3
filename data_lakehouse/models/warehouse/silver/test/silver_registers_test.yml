@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: silver_registers
+    description: "Table that contains all data from customers"
+    columns:
+      - name: cpf
+        description: "Id customer"
+        tests:
+          - unique:
+              config:
+                severity: error
+          - not_null:
+              config:
+                severity: error
